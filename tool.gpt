@@ -1,0 +1,20 @@
+---
+Name: cURL
+Metadata: bundle: true
+Description: Tools for sending HTTP requests
+Share Tools: Get
+
+---
+Name: Send Get
+Description: Send an HTTP GET request and return the response
+Param: url: The HTTPS URL to send the request to
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/get.py
+
+---
+!metadata:*:category
+cURL
+
+---
+!metadata:*:icon
+https://upload.wikimedia.org/wikipedia/commons/8/8a/Curl-logo.svg
